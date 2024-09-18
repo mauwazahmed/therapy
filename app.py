@@ -21,7 +21,7 @@ if user_key:
     if "messages" not in st.session_state:
         st.session_state.messages = [
             {"role": "system", "content": system_prompt},
-            {"role": "assistant", "content": "Hello Sir/Ma'am, I am pleased to be at your service. How are you feeling today?"}
+            {"role": "assistant", "content": "Hi, Welcome to MantraCare. How can I help you?"}
         ]
 
     # Display chat messages
